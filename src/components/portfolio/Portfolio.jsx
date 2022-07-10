@@ -11,9 +11,9 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Coin Dunia (Crypto Stats Platform)',
-    github: 'https://github.com/utkarshgoel10/CryptoZone',
-    demo: 'https://cryptozone10.netlify.app/'
+    title: 'Crypto Finder (Crypto Stats PWA)',
+    github: 'https://github.com/utkarshgoel10/CryptoSearch',
+    demo: 'https://mycrypto-finder.netlify.app/'
   },
   {
     id: 2,
