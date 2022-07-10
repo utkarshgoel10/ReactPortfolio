@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Finder (Crypto Stats PWA)',
+    title: 'Coin Finder (Crypto Stats PWA)',
     github: 'https://github.com/utkarshgoel10/CryptoSearch',
     demo: 'https://mycrypto-finder.netlify.app/'
   },
@@ -19,8 +19,8 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'Portfolio Website (React Js)',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    github: 'https://github.com/utkarshgoel10/ReactPortfolio',
+    demo: 'https://utkarshgoel-10.netlify.app/'
   },
   {
     id: 3,
@@ -40,15 +40,15 @@ const data = [
     id: 5,
     image: IMG5,
     title: 'FYB (Freelance)',
-    github: 'https://github.com/utkarshgoel10/Youtube-Home-Clone',
-    demo: 'https://youtube-homepg-clone.netlify.app/'
+    github: 'https://github.com/utkarshgoel10/FybHome',
+    demo: 'https://utkarshgoel10.github.io/FybHome/'
   },
   {
     id: 6,
     image: IMG6,
     title: 'Youtube Home Page (Clone)',
-    github: 'https://github.com/utkarshgoel10/FybHome',
-    demo: 'https://utkarshgoel10.github.io/FybHome/'
+    github: 'https://github.com/utkarshgoel10/Youtube-Home-Clone',
+    demo: 'https://youtube-homepg-clone.netlify.app/'
   }
 ]
 
