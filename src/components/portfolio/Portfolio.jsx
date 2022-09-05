@@ -11,14 +11,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Coin Finder (Crypto Stats PWA)',
+    title: 'Coin Finder (Crypto PWA)',
     github: 'https://github.com/utkarshgoel10/CryptoSearch',
     demo: 'https://mycrypto-finder.netlify.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Portfolio Website (React Js)',
+    title: 'Portfolio Website (ReactJs)',
     github: 'https://github.com/utkarshgoel10/ReactPortfolio',
     demo: 'https://utkarshgoel-10.netlify.app/'
   },
@@ -32,9 +32,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'Sudoku Solver (Learning DSA)',
-    github: 'https://github.com/utkarshgoel10/SudokuSolver',
-    demo: 'https://www.linkedin.com/posts/goelutkarsh_project-python-sudoku-activity-6801371892247773184-xk5S/',    
+    title: 'Logistics Dashboard (NextJs)',
+    github: 'https://github.com/Rashmi1526/TECHNOEC__2',
+    demo: 'https://technoec-prob2.vercel.app/',    
   },
   {
     id: 5,
@@ -46,9 +46,9 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: 'Youtube Home Page (Clone)',
-    github: 'https://github.com/utkarshgoel10/Youtube-Home-Clone',
-    demo: 'https://youtube-homepg-clone.netlify.app/'
+    title: 'SmartKart (Freelance)',
+    github: 'https://github.com/utkarshgoel10/',
+    demo: 'https://github.com/utkarshgoel10/'
   }
 ]
 
