@@ -61,24 +61,24 @@ const Services = () => {
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>GFG ABESEC</h3>
+            <h3>Edupop</h3>
           </div>
           <ul className='service__list'>
           <li style={{display:'table',margin:'0px auto 1.1rem auto'}}>
               {/* <BiCheck className='service__list-icon'/> */}
-              <p style={{fontWeight:800,fontSize:'1rem'}}>Content Creation</p>
+              <p style={{fontWeight:800,fontSize:'1rem'}}>Software Engineer</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>I've worked as a Video Editing coordinator and a Technical writer.</p>
+              <p>I'm working with a team to help a startup establish a new service platform.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>I've made 10+ videos and I was an editing lead for 6 months.</p>
+              <p>We're using the MERN stack, and I'm the team's frontend lead.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>One of my Technical article on debugging secured 37th rank in India.</p>
+              <p>I'm currently focussing on using dynamic routes, replicating designs, working with API, and backend.</p>
             </li>                    
           </ul>
         </article>
