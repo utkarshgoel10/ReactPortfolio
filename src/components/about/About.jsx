@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-          I'm a final year student currently pursuing my bachelor's of technology. I'm a tech enthusiast, and an avid learner. I'm quite motivated to know about different technologies and learn them. I'm searching for new opportunities; if you believe I may be of assistance, feel free to contact me.
+          I'm a final year student currently pursuing my bachelor's of technology. I'm a tech enthusiast, and an avid learner. I'm also an instructor, helping developers become confident in their domains. Currently, I'm making programming tutorials on Youtube. I'm searching for new opportunities; if you believe I may be of assistance, feel free to contact me.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
