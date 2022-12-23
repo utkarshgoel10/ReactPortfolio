@@ -13,7 +13,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
-      <a data-tip data-for="home" href="#" onClick={()=> setActiveNav('#')} className= {activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
+      <a data-tip data-for="home" href="/" onClick={()=> setActiveNav('/')} className= {activeNav === '/' ? 'active' : ''}><AiOutlineHome /></a>
       <ReactTooltip id="home" place="top" effect="solid">Home</ReactTooltip>
 
       <a data-tip data-for="about" href="#abouts" onClick={()=> setActiveNav('#about')} className= {activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>

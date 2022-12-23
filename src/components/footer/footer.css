@@ -14,7 +14,7 @@ footer a{
 }
 li{transition: var(--transition);}
 li:hover{
-    transform: scale(1.1);    
+    /* transform: scale(1.1);     */
 }
 
 .footer__logo{
@@ -40,7 +40,7 @@ li:hover{
 }
 
 .footer__socials a{
-    background: var(--color-bg);
+    background: #010415;
     color: var(--color-white);
     padding: 0.8rem;
     border-radius: 0.7rem;
@@ -49,9 +49,7 @@ li:hover{
 }
 
 .footer__socials a:hover{
-    background: transparent;
-    /* color: var(--color-bg); */
-    border-color: var(--color-bg);
+    transform: translateY(-7px);
 }
 
 .footer_copyright{

@@ -1,31 +1,38 @@
 import React from 'react'
 import './about.css'
-// import ME from '../../assets/about.jpg'
-import ME from '../../assets/_DSC5138.JPG'
+import ME from '../../assets/images/aud.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
-
+import { motion } from "framer-motion";
 const About = () => {
   return (
-    <section id='abouts'>
-      <div style={{marginBottom:20}}></div>
+    <section id='abouts'>      
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
+        <motion.div                                          
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.3 },
+            }}
+            whileTap={{ scale: 0.8 }}
+            whileInView={{ opacity: 1 }}
+          >          
           <div className="about__me-image">
             <img src= {ME} alt="" />
             </div>
+            </motion.div>
         </div>
         <div className="about__content">
           <div className="about__cards">
 
             <article className='about__card'>
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>10,000+ Lines of Code</small>
+              <h5>Community</h5>
+              <small>Trained 150+ devs</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
@@ -43,7 +50,7 @@ const About = () => {
           I'm a final year student currently pursuing my bachelor's of technology. I'm a tech enthusiast, and an avid learner. I'm also an instructor, helping developers become confident in their domains. Currently, I'm making programming tutorials on Youtube. I'm searching for new opportunities; if you believe I may be of assistance, feel free to contact me.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Hire Me</a>
 
         </div>
       </div>

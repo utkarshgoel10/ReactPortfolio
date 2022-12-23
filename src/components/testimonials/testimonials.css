@@ -2,7 +2,9 @@
     width: 40%;
     padding-bottom: 4rem;
 }
-
+#testimonials{
+    margin-top: 7%;
+}
 .client__avatar{
     width: 4rem;
     aspect-ratio: 1/1;
@@ -18,6 +20,7 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    cursor: grab;
 }
 
 .clent__review{
@@ -50,3 +53,13 @@
         width: var(--container-width-sm);
     }
 }
+@media screen and (max-width: 768px){
+    #testimonials{
+        margin-top: 15%;
+    }
+}   
+@media screen and (max-width: 468px){
+    #testimonials{
+        margin-top: 25%;
+    }
+ }

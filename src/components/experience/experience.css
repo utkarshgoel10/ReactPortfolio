@@ -1,12 +1,15 @@
 .experience__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;    
+    gap: 2rem;        
 }
-
+#experience{
+    margin-top: 0%;
+}
 .experience__container > div{
-    background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* background: var(--color-bg-variant); */
+    padding: 2.4rem 5rem;    
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -66,3 +69,13 @@
         padding: 2rem 1rem;
     }
  }
+ @media screen and (max-width: 768px){
+    #experience{
+        margin-top: 15%;
+    }
+}   
+@media screen and (max-width: 468px){
+   #experience{
+       margin-top: 25%;
+   }
+}

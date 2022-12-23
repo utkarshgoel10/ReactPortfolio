@@ -1,69 +1,67 @@
-.services__container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
+#services{
+  margin-top: 7%;
 }
 
-.service{
-    background: var(--color-bg-variant);
-    border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-primary);
-    height: fit-content;
-    transition: var(--transition);
+.projects__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-gap: 2em;
+}
+.project {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #141727;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: transform 0.2s linear;
 }
 
-.service:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+.project:hover {
+  transform: translateY(-7px);
 }
 
-.service__head{
-    background: var(--color-primary);
-    padding: 2rem;
-    border-radius: 0 0 2rem 2rem;
-    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+.project__description {
+  margin-top: 1em;
 }
 
-.service__head h3{
-    color: var(--color-bg);
-    font-size: 1rem;
-    text-align: center;
+.project__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2em 0;
 }
 
-.service__list{
-    padding: 2rem;
+.project__stack-item {
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--color-primary);
 }
 
-.service__list li{
-    display: flex;
-    margin-bottom: 0.8rem;
-    gap: 1rem;
+.project .link--icon {
+  margin-left: 0.5em;
 }
 
-.service__list-icon{
-    color: var(--color-primary);
-    margin-top: 2px;
+@media (max-width: 600px){
+  .projects__grid{
+    grid-template-columns: auto;
+  }
 }
-.service__list p{
-    font-size: 0.9rem;
+@media (min-width: 601px) and (max-width:800px){
+  .projects__grid{
+    grid-template-columns: auto auto;
+  }
 }
+@media screen and (max-width: 768px){
+  #services{
+      margin-top: 15%;
+  }
+}   
 
-
-@media screen and (max-width: 1024px) {
-    .services__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-    }
-    .service{
-        height: auto;
-    }
-}
-
-
-@media screen and (max-width: 600px) { 
-    .services__container{
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
- }
+@media screen and (max-width: 468px){
+  #services{
+      margin-top: 25%;
+  }
+}   
